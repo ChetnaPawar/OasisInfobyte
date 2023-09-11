@@ -88,21 +88,17 @@ nav {
   margin: 0 1rem;
 }
 #about{
-  cursor: pointer;
   padding: 150px 70px;
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
   font-family: 'Noto Sans', sans-serif;
   background-color: rgb(1, 1, 1);
   color: white;
 }
 .labout{
 flex-basis: 40%
-
 }
 .rabout{
   flex-basis: 60%;
@@ -130,7 +126,6 @@ flex-basis: 40%
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-  flex-wrap: wrap;
   text-align: left;
 }
 #connect{
@@ -158,10 +153,7 @@ flex-basis: 40%
   margin: 0 1rem;
   border: 1px dashed;
 }
-.start h1{
-  font-size: 4rem;
-  color: rgb(185, 97, 239);
-}
+
 #Experience{
   padding: 50px 70px;
   width: 100%;
@@ -171,6 +163,12 @@ flex-basis: 40%
   font-family: 'Kalam', cursive;
   text-align: center;
 }
+
+.start h1{
+  font-size: 4rem;
+  color: rgb(185, 97, 239);
+}
+
 .card{
   width: 100%;
   height: 100%;
@@ -194,43 +192,27 @@ flex-basis: 40%
   font-size: 2.5rem;
   color: rgb(185, 97, 239);
 }
-footer{
-  background-color:rgb(185, 97, 239);
-  color: white;
-  font-size: 2rem;
-  padding: 0.5rem;
-  font-family: 'Kalam', cursive;
-  text-align: center;
-  /* border: 3px solid black; */
-}
-/* Contact Me */
+
+
 .Contact{
-  padding: 0px;
-  margin: 0px;
   font-family: 'Noto Sans', sans-serif;
   background-color: black;
   color: white;
   border: 10px solid black;
-
 }
 .Contact h1{
   font-size: 2.5rem;
-  /* text-align: center; */
-  text-decoration: dashed;
   text-underline-position: under;
-  /* color: white; */
   letter-spacing: 2px;
   color: rgb(185, 97, 239);
   margin-left: 2rem;
 }
-.Contact a{
-  text-shadow: 10px;
+/* .Contact a{
   font-size: 3rem;
-  margin: 0 1rem;
-  background-color: black;
-}
+  
+} */
 .icons{
-  font-size: 2rem;
+  font-size: 3rem;
   width: 100%;
   height: 100%;
   display: flex;
@@ -238,10 +220,9 @@ footer{
   align-items: center;
   flex-wrap: wrap;
   margin-top: 3rem;
-  margin-right: 2rem;
   padding-right: 3rem;
-  
 }
+
 .icons i.fa:hover{
   cursor: pointer;
   color: rgb(219, 166, 228);
@@ -250,16 +231,13 @@ footer{
 .forms{
   width: 90%;
   margin: auto;
-  overflow: hidden;
-  display: grid;
-  grid-template-columns: auto auto;
- 
 }
+
 .forms form{
   font-size: 16px;
   letter-spacing: 2px;
-  
 }
+
 input,textarea{
   padding: 10px;
   margin: 10px;
@@ -268,20 +246,29 @@ input,textarea{
   color: white;
   text-align: center;
 }
+
 .submit{
   width:40%;
   margin-top: 4px;
+  margin-left: 3%;
   background: none;
   padding: 4px;
-  outline: none;
   font-size: 13px;
   font-weight: bold;
   letter-spacing: 2px;
   height: 33px;
   text-align: center;
   cursor: pointer;
-  letter-spacing: 2px;
-  margin-left: 3%;
   border: 2px solid white;
   color: white;
+}
+
+footer{
+  background-color:rgb(185, 97, 239);
+  color: white;
+  font-size: 1.8rem;
+  padding-top: 0.5rem;
+  font-family: 'Kalam', cursive;
+  text-align: center;
+  height: 2.9rem;
 }
