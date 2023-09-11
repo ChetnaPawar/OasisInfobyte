@@ -1,0 +1,287 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: 'Noto Sans', sans-serif; */
+  /* font-family: 'Tilt Prism', cursive; */
+  /* font-family: 'Sedgwick Ave Display', cursive; */
+  /* font-family: 'Kalam', cursive; */
+  
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url(bg.avif);
+  background-size: cover;
+  color: white;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 70px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.logo {
+  font-size: 2em;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.Menu a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  padding: 0.5rem 1rem;
+}
+.Menu a:nth-child(5){
+  background-color: rgb(12, 63, 192);
+  border-radius: 8px;
+  margin: 0 1rem;
+}
+.Menu a:hover{
+  background: rgb(12, 63, 192);
+  border-radius: 8px;
+}
+.Container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 70px;
+}
+.left{
+  flex-basis: 60%;
+}
+.right{
+  flex-basis: 30%;
+}
+.left h1{
+  font-family: 'Tilt Prism', cursive;
+  color: rgb(114, 66, 224);
+}
+.left h2{
+  font-family: 'Kalam', cursive;
+  font-size: 4em;
+  color: rgb(232, 232, 27);
+}
+.left p{
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 2.5rem;
+  font-size: large;
+}
+#myp{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  border: 1px dashed white;
+  padding: 1rem 2rem;
+  margin: 0 1rem;
+}
+#about{
+  cursor: pointer;
+  padding: 150px 70px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  font-family: 'Noto Sans', sans-serif;
+  background-color: rgb(1, 1, 1);
+  color: white;
+}
+.labout{
+flex-basis: 40%
+
+}
+.rabout{
+  flex-basis: 60%;
+  text-align: right;
+  padding: 0 40px;
+}
+.labout img{
+  width: 100%;
+  height: 700px;
+  border-radius: 89px;
+}
+.rabout p{
+  margin: 15px 0;
+  line-height: 2.5rem;
+}
+.rabout h1{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.rabout h3{
+  font-weight: normal;
+  color:  rgb(113, 227, 182);
+}
+.info{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  text-align: left;
+}
+#connect{
+  text-align: center;
+}
+#connect i{
+  color:  rgb(31, 213, 140);
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+}
+#connect i.fa:hover{
+  cursor: pointer;
+  color: rgb(213, 245, 233);
+}
+.cv{
+  text-align: center;
+  margin-top: 3rem;
+}
+#CV{
+  text-decoration: none;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  margin: 0 1rem;
+  border: 1px dashed;
+}
+.start h1{
+  font-size: 4rem;
+  color: rgb(185, 97, 239);
+}
+#Experience{
+  padding: 50px 70px;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  font-family: 'Kalam', cursive;
+  text-align: center;
+}
+.card{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+.cardbody{
+  flex-basis: 30%;
+  background-color: rgb(37, 31, 31);
+  padding: 1rem;
+  border-radius: 8px;
+}
+.cardbody h3{
+  font-size: 1.5rem;
+  margin: 0.5rem 0rem;
+} 
+.cardbody i{
+  font-size: 2.5rem;
+  color: rgb(185, 97, 239);
+}
+footer{
+  background-color:rgb(185, 97, 239);
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem;
+  font-family: 'Kalam', cursive;
+  text-align: center;
+  /* border: 3px solid black; */
+}
+/* Contact Me */
+.Contact{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Noto Sans', sans-serif;
+  background-color: black;
+  color: white;
+  border: 10px solid black;
+
+}
+.Contact h1{
+  font-size: 2.5rem;
+  /* text-align: center; */
+  text-decoration: dashed;
+  text-underline-position: under;
+  /* color: white; */
+  letter-spacing: 2px;
+  color: rgb(185, 97, 239);
+  margin-left: 2rem;
+}
+.Contact a{
+  text-shadow: 10px;
+  font-size: 3rem;
+  margin: 0 1rem;
+  background-color: black;
+}
+.icons{
+  font-size: 2rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  margin-right: 2rem;
+  padding-right: 3rem;
+  
+}
+.icons i.fa:hover{
+  cursor: pointer;
+  color: rgb(219, 166, 228);
+}
+
+.forms{
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: auto auto;
+ 
+}
+.forms form{
+  font-size: 16px;
+  letter-spacing: 2px;
+  
+}
+input,textarea{
+  padding: 10px;
+  margin: 10px;
+  width: 70%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.submit{
+  width:40%;
+  margin-top: 4px;
+  background: none;
+  padding: 4px;
+  outline: none;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 33px;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 2px;
+  margin-left: 3%;
+  border: 2px solid white;
+  color: white;
+}

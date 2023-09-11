@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Noto Sans', sans-serif; */
+    /* font-family: 'Tilt Prism', cursive; */
+    /* font-family: 'Sedgwick Ave Display', cursive; */
+    /* font-family: 'Kalam', cursive; */
+    
+  }
+  
+  #about{
+    cursor: pointer;
+    padding: 150px 70px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(1, 1, 1);
+    color: white;
+  }
+  .labout{
+  flex-basis: 40%
+  
+  }
+  .rabout{
+    flex-basis: 60%;
+    text-align: right;
+    padding: 0 40px;
+  }
+  .labout img{
+    width: 100%;
+    height: 700px;
+    border-radius: 89px;
+  }
+  .rabout p{
+    margin: 15px 0;
+    line-height: 2.5rem;
+  }
+  .rabout h1{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .rabout h3{
+    font-weight: normal;
+    color:  rgb(113, 227, 182);
+  }
+  .info{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  #connect{
+    text-align: center;
+  }
+  #connect i{
+    color: rgb(31, 213, 140);
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+  }
+  .cv{
+    text-align: center;
+    margin-top: 3rem;
+  }
+  #CV{
+    text-decoration: none;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    border: 1px dashed;
+  }
+#connect i.fa:hover{
+    cursor: pointer;
+    color: rgb(241, 244, 243);
+  }

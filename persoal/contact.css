@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: 'Noto Sans', sans-serif; */
+  /* font-family: 'Tilt Prism', cursive; */
+  /* font-family: 'Sedgwick Ave Display', cursive; */
+  /* font-family: 'Kalam', cursive; */
+  
+}
+body{
+  margin-top: 50px;
+  background-color: black;
+}
+footer{
+    background-color:rgb(185, 97, 239);
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    /* border: 2px solid black; */
+  }
+  /* Contact Me */
+  .Contact{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: black;
+    color: white;
+    border: 5px solid black;
+    border-top: 90px solid black;
+  }
+  .Contact h1{
+    font-size: 2.5rem;
+    text-decoration: dashed;
+    text-underline-position: under;
+    letter-spacing: 2px;
+    color: rgb(185, 97, 239);
+  }
+  .Contact a{
+    text-shadow: 10px;
+    font-size: 3rem;
+    margin: 0 1rem;
+    background-color: black;
+  }
+  .icons{
+    font-size: 2rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    /* margin-right: 1rem; */
+    padding-right: 3rem;
+
+  }
+  .icons i.fa:hover{
+    cursor: pointer;
+    color: rgb(219, 166, 228);
+  }
+  
+  .forms{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: auto auto;
+   
+  }
+  .forms form{
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+  input,textarea{
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    background-color: black;
+    color: white;
+  }
+  .submit{
+    width:40%;
+    margin-top: 4px;
+    background: none;
+    padding: 4px;
+    outline: none;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 33px;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-left: 3%;
+    border: 2px solid white;
+    color: white;
+  }
