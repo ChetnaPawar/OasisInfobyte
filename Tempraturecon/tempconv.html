@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="tempconv.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Tilt+Prism&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Sedgwick+Ave+Display&family=Tilt+Prism&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kalam&family=Noto+Sans:wght@200&family=Sedgwick+Ave+Display&family=Tilt+Prism&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="block">
+        <div class="topheading">
+            <h1>Temperature Converter <i class="fa-solid fa-temperature-three-quarters"></i></h1>
+        </div>
+        <div class="forms">
+            <form id="caltemp" onsubmit="Calculatetemp(); return false">
+                <div id="opt">
+                <select id="fromunit" name="fromunit">
+                    <option value="Select" disabled selected>Select your From temperature unit</option>
+                    <option value="Celsius">&nbsp;&deg; Celsius</option>
+                    <option value="Fahrenheit">&nbsp;&deg; Fahrenheit</option>
+                    <option value="kelvin">&nbsp;&nbsp;&nbsp;Kelvin </option>
+                </select><br>
+                <select id="tounit" name="tounit" >
+                    <option value="Select" disabled selected>Select your To temperature unit</option>
+                    <option value="Celsius">&nbsp;&deg; Celsius</option>
+                    <option value="Fahrenheit">&nbsp;&deg; Fahrenheit</option>
+                    <option value="kelvin">&nbsp;&nbsp;&nbsp;Kelvin </option>
+                </select><br>
+                <input type="number" id="temp" name="temp" placeholder="Entre Tempreature" required><br>
+            </div>
+                <div id="buttons">
+                    <input type="submit" name="submit" value="Submit" id="submit">
+                    <input type="reset" name="Reset">
+                </div>
+                <br>
+                <span id="result"></span>
+            </form>
+        </div>
+    </div>
+    <script src="tempconv.js"></script>
+</body>
+
+</html>
