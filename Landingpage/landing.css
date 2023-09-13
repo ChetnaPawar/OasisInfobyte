@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: 'Kalam', cursive;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Sedgwick Ave Display', cursive;
+font-family: 'Tilt Prism', cursive; */
+}
+
+header{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),
+    url(charity.webp);
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 2rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.Menu{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: bols;
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: rgb(252, 251,251);
+    padding: 1rem;
+    margin-left: 1.2rem;
+}
+
+.container{
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 70px;
+}
+
+#intro{
+    flex-basis: 50%;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+#intro h2{
+    color: white;
+}
+
+#intro h1{
+    color: yellow;
+}
+
+.box{
+    background-color: rgb(255,255,0,0.5);
+    width: 30rem;
+    height: 30rem;
+    align-items: center;
+}
+
+.box h1{
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+form input{
+    width: 95%;
+    padding: 10px;
+    font-size: 1rem;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    margin: 10px;
+    border-radius: 1rem;
+}
+
+.button{
+    font-size: 1rem;
+    width: 50%;
+    margin-left: 7rem;
+    margin-top: 1rem;
+}
+
+#info{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),
+    url(charity.jpg);
+    background-size: cover;
+    align-items: center;
+    padding: 2rem;
+}
+#heading{
+    color: rgb(238,249,249);
+    font-size: 3rem;
+    font-family: 'Kalam', cursive;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    padding-left: 2rem;
+}
+
+.cardbody{
+    background-color: rgb(251,255,0,0.8);
+    padding: 1.5rem;
+    border-radius: 70px;
+    color: rgb(0,0,0);
+    margin-top: 3rem;
+    margin-right: 3rem;
+    width: 50rem;
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+}
+
+.cardbody h3{
+    font-size: 1.5rem;
+    margin: 0.5rem 0rem;
+    color: rgb(7,0,0);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.8rem;
+    font-family: 'Tilt Prism', cursive;
+}
+
+.cardbody i{
+    font-size: 2.5rem;
+    color: rgb(0,0,0);
+    padding: 10px;
+    padding-left: 10rem;
+}
+
+footer{
+    background-color: yellow;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
